@@ -1,0 +1,12 @@
+person:
+    lastName: zhangsan
+    age: 18
+    gender: man
+    maps: {k1: v1,k2: 12}
+    lists:
+      - lisi
+      - 17
+      - female
+    dog:
+      name: geluomi${person.hello:hello} #如果获取不到值，就会使用自定义的默认值
+      age: 14
